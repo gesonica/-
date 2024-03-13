@@ -9,4 +9,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 # コンテナが起動した時にDiscordボットを実行
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
