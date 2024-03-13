@@ -125,4 +125,4 @@ def contains_url(content: str) -> bool:
     return bool(_contains_url_matcher.search(content))
 
 # Botを実行
-  client.run(TOKEN)
+client.run(TOKEN)
